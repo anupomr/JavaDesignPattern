@@ -1,5 +1,6 @@
 package anupom.roy.asgn1.test;
 
+import anupom.roy.asgn1.data.CourseCatalog;
 import anupom.roy.asgn1.dto.Course;
 import anupom.roy.asgn1.dto.Professor;
 

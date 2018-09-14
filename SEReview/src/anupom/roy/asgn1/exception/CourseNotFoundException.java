@@ -2,6 +2,8 @@ package anupom.roy.asgn1.exception;
 
 public class CourseNotFoundException extends Exception {
 
+	private static final long serialVersionUID = 1L;
+
 	public CourseNotFoundException() {
 		// TODO Auto-generated constructor stub
 	}
