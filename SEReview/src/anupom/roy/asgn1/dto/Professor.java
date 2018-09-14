@@ -1,4 +1,6 @@
-package student.name.asgn1.dto;
+package anupom.roy.asgn1.dto;
+
+import anupom.roy.asgn1.exception.ImproperInputException;
 
 public class Professor {
 	private String firstName = null;

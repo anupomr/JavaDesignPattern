@@ -1,6 +1,8 @@
-package student.name.asgn1.dto;
+package anupom.roy.asgn1.dto;
 
 import java.io.Serializable;
+
+import anupom.roy.asgn1.exception.ImproperInputException;
 
 public class Course implements Serializable {
 
