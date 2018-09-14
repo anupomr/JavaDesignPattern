@@ -1,13 +1,16 @@
 package anupom.roy.asgn1.test;
 
+import java.util.Collection;
+
 import anupom.roy.asgn1.data.CourseCatalog;
+import anupom.roy.asgn1.data.CourseManager;
 import anupom.roy.asgn1.dto.Course;
 import anupom.roy.asgn1.dto.Professor;
 
 public class LocalTester {
 
 	private static void buildCatalog() {
-	    CourseCatalog cm = new CourseManager();
+	    CourseCatalog cm =CourseManager.getInstance();
 		System.out.println("Building course catalog");
 		try {
 			// replace up to catch to add courses you are taking this term
@@ -38,7 +41,7 @@ public class LocalTester {
 	
 	public static void main(String[] args) {
 		buildCatalog();
-		CourseCatalog cc = new CourseManager();
+		CourseCatalog cc = CourseManager.getInstance();
 		System.out.println();
 		System.out.println("Testing getting a course by code");
 	try {

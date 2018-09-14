@@ -51,4 +51,11 @@ public class Professor {
 		this.lastName = lastName;
 	}
 
+	@Override
+	public String toString() {
+		return  (firstName != null ?  firstName + ", " : "")
+				+ (middleName != null ? middleName + ", " : "")
+				+ (lastName != null ? lastName : "");
+	}
+
 }

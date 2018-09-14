@@ -60,5 +60,12 @@ public class Course implements Serializable {
 		this.professor = professor;
 }
 
+	@Override
+	public String toString() {
+		return "Course [" + (courseCode != null ? "Code=" + courseCode + ", " : "")
+				+ (courseTitle != null ? "Title=" + courseTitle + ", " : "")
+				+ (professor != null ? "Professor=" + professor : "") + "]";
+	}
+
 
 }
