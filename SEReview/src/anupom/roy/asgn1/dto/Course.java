@@ -59,7 +59,12 @@ public class Course implements Serializable {
 		this(code,title);
 		this.professor = professor;
 }
-
+	public boolean equals( Course course) {
+		if(this.equals(course)) {
+			return true;
+		}
+		return false;
+	}
 	@Override
 	public String toString() {
 		return "Course [" + (courseCode != null ? "Code=" + courseCode + ", " : "")

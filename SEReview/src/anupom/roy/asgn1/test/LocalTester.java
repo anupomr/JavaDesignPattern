@@ -99,9 +99,9 @@ public class LocalTester {
 			Course course = cc.getCourse("TEST 1234");
 			System.out.println("Updating course TEST 1234");
 			// insert your details in the next line - you teach MISC101
-			course.setProfessor(new Professor( "Your", "Own", "Name") );
+			course.setProfessor(new Professor( "Anupom", "Roy") );
 			// Set a title of your choice
-			course.setCourseTitle("What would you teach?");
+			course.setCourseTitle("Java Standerd Edition");
 			course = cc.updateCourse(course);
 			System.out.println("Updated: " + course);
 		} catch (Exception e) {
